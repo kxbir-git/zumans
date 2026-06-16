@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>STRETKAT — Urban Streetwear</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700;900&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="C:\~KABIR\GIT DEMO\Zuman\style.cs">
+</head>
+<body>
+
+<!-- LOADER -->
+<div id="loader">
+  <div class="loader-text">STRETKAT</div>
+  <div class="loader-bar"><div class="loader-fill"></div></div>
+</div>
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <div class="logo">STRETKAT</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#store">Store</a></li>
+      <li><a href="#collections">Collections</a></li>
+      <li><a href="#drops">Drops</a></li>
+      <li><a href="#blog">Blog</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button id="searchBtn" class="icon-btn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      </button>
+      <button id="cartBtn" class="icon-btn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+        <span class="cart-count" id="cartCount">0</span>
+      </button>
+      <button id="menuBtn" class="icon-btn hamburger">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div id="mobileMenu">
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#store">Store</a></li>
+    <li><a href="#collections">Collections</a></li>
+    <li><a href="#drops">Drops</a></li>
+    <li><a href="#blog">Blog</a></li>
+  </ul>
+</div>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="hero-bg-text">STREETWEAR</div>
+  <div class="hero-content">
+    <div class="hero-left">
+      <p class="hero-eyebrow">NEW SEASON 2025</p>
+      <h1 class="hero-title">
+        <span class="line" data-text="STREET">STREET</span>
+        <span class="line accent" data-text="CULTURE">CULTURE</span>
+        <span class="line" data-text="REBORN">REBORN</span>
+      </h1>
+      <p class="hero-sub">The loudest fits on the block. Underground drops, every Friday.</p>
+      <div class="hero-actions">
+        <button class="btn-primary" onclick="document.getElementById('store').scrollIntoView({behavior:'smooth'})">Shop Now</button>
+        <button class="btn-ghost" onclick="document.getElementById('collections').scrollIntoView({behavior:'smooth'})">Explore</button>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="hero-model">
+        <div class="model-card main-model">
+          <div class="model-img" style="background:linear-gradient(160deg,#1a1a1a,#333)">
+            <div class="model-placeholder">
+              <svg viewBox="0 0 100 140" fill="none"><rect x="30" y="10" width="40" height="40" rx="20" fill="#444"/><rect x="15" y="55" width="70" height="80" rx="10" fill="#333"/></svg>
+            </div>
+          </div>
+          <div class="model-tag">NEW DROP</div>
+        </div>
+        <div class="hero-small-cards">
+          <div class="small-card">
+            <div class="scard-img" style="background:#222">
+              <div class="model-placeholder sm"><svg viewBox="0 0 60 80" fill="none"><rect x="15" y="5" width="30" height="30" rx="15" fill="#444"/><rect x="5" y="38" width="50" height="40" rx="8" fill="#333"/></svg></div>
+            </div>
+            <span>HOODIE DROP</span>
+          </div>
+          <div class="small-card">
+            <div class="scard-img" style="background:#1a1a1a">
+              <div class="model-placeholder sm"><svg viewBox="0 0 60 80" fill="none"><rect x="15" y="5" width="30" height="30" rx="15" fill="#444"/><rect x="5" y="38" width="50" height="40" rx="8" fill="#333"/></svg></div>
+            </div>
+            <span>CARGO SERIES</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-marquee">
+    <div class="marquee-inner">
+      <span>FREE SHIPPING OVER ₹2000</span><span class="dot">•</span>
+      <span>NEW DROP EVERY FRIDAY</span><span class="dot">•</span>
+      <span>UNDERGROUND STREETWEAR</span><span class="dot">•</span>
+      <span>UNISEX FITS</span><span class="dot">•</span>
+      <span>FREE SHIPPING OVER ₹2000</span><span class="dot">•</span>
+      <span>NEW DROP EVERY FRIDAY</span><span class="dot">•</span>
+      <span>UNDERGROUND STREETWEAR</span><span class="dot">•</span>
+      <span>UNISEX FITS</span><span class="dot">•</span>
+    </div>
+  </div>
+</section>
+
+<!-- SOVEREIGN SECTION -->
+<section class="sovereign-section">
+  <div class="sovereign-bg-text">SOVEREIGN</div>
+  <div class="sovereign-content">
+    <div class="sov-left">
+      <h2>THE <span class="red">SOV</span><br>COLLECTION</h2>
+      <p>Engineered for the streets. Built to outlast the noise.</p>
+    </div>
+    <div class="sov-products" id="sovProducts">
+      <!-- loaded by JS -->
+    </div>
+  </div>
+</section>
+
+<!-- SEARCH BAR (hidden) -->
+<div id="searchOverlay">
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Search products...">
+    <button id="closeSearch">✕</button>
+  </div>
+  <div id="searchResults"></div>
+</div>
+
+<!-- STORE SECTION -->
+<section id="store" class="store-section">
+  <div class="section-header">
+    <h2 class="section-title">ALL PRODUCTS</h2>
+    <div class="filter-tabs" id="filterTabs">
+      <button class="filter-tab active" data-filter="all">All</button>
+      <button class="filter-tab" data-filter="hoodies">Hoodies</button>
+      <button class="filter-tab" data-filter="tees">Tees</button>
+      <button class="filter-tab" data-filter="cargo">Cargo</button>
+      <button class="filter-tab" data-filter="caps">Caps</button>
+    </div>
+  </div>
+  <div class="products-grid" id="productsGrid">
+    <!-- products loaded by JS -->
+  </div>
+  <div class="load-more-wrap">
+    <button class="btn-primary" id="loadMoreBtn">Load More</button>
+  </div>
+</section>
+
+<!-- COLLECTIONS -->
+<section id="collections" class="collections-section">
+  <div class="section-header">
+    <h2 class="section-title">COLLECTIONS</h2>
+    <div class="view-all"><a href="#store">View All →</a></div>
+  </div>
+  <div class="collections-grid" id="collectionsGrid">
+    <!-- loaded by JS -->
+  </div>
+</section>
+
+<!-- STATS BAR -->
+<div class="stats-bar">
+  <div class="stat"><span class="stat-num" data-target="5000">0</span><span class="stat-label">Happy Customers</span></div>
+  <div class="stat"><span class="stat-num" data-target="120">0</span><span class="stat-label">Products</span></div>
+  <div class="stat"><span class="stat-num" data-target="48">0</span><span class="stat-label">Drops Per Year</span></div>
+  <div class="stat"><span class="stat-num" data-target="15">0</span><span class="stat-label">Cities Covered</span></div>
+</div>
+
+<!-- DROPS SECTION -->
+<section id="drops" class="drops-section">
+  <div class="drops-header">
+    <h2>UPCOMING <span class="red">DROPS</span></h2>
+    <p>Don't sleep. Limited units only.</p>
+  </div>
+  <div class="drops-grid" id="dropsGrid">
+    <!-- loaded by JS -->
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="newsletter-section">
+  <div class="newsletter-inner">
+    <h2>GET EARLY ACCESS</h2>
+    <p>Drop alerts. Members-only discounts. No spam.</p>
+    <div class="newsletter-form" id="newsletterForm">
+      <input type="email" id="emailInput" placeholder="your@email.com">
+      <button class="btn-primary" id="subscribeBtn">Subscribe</button>
+    </div>
+    <p class="nl-msg" id="nlMsg"></p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-top">
+    <div class="footer-brand">
+      <div class="logo">STRETKAT</div>
+      <p>Underground streetwear from the heart of the city.</p>
+    </div>
+    <div class="footer-links">
+      <div class="flink-col">
+        <h4>COLLECTIONS</h4>
+        <ul>
+          <li><a href="#">Hoodies</a></li>
+          <li><a href="#">Tees</a></li>
+          <li><a href="#">Cargo</a></li>
+          <li><a href="#">Caps</a></li>
+        </ul>
+      </div>
+      <div class="flink-col">
+        <h4>HELP</h4>
+        <ul>
+          <li><a href="#">Size Guide</a></li>
+          <li><a href="#">Shipping</a></li>
+          <li><a href="#">Returns</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="flink-col">
+        <h4>FOLLOW</h4>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">YouTube</a></li>
+          <li><a href="#">X (Twitter)</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 STRETKAT. All rights reserved.</span>
+    <span>Made with fire 🔥</span>
+  </div>
+</footer>
+
+<!-- CART DRAWER -->
+<div id="cartDrawer">
+  <div class="cart-header">
+    <h3>YOUR CART</h3>
+    <button id="closeCart">✕</button>
+  </div>
+  <div class="cart-items" id="cartItems"></div>
+  <div class="cart-footer">
+    <div class="cart-total">Total: <span id="cartTotal">₹0</span></div>
+    <button class="btn-primary full-width" id="checkoutBtn">Checkout</button>
+  </div>
+</div>
+<div id="cartOverlay"></div>
+
+<!-- PRODUCT MODAL -->
+<div id="productModal">
+  <div class="modal-inner">
+    <button class="modal-close" id="modalClose">✕</button>
+    <div class="modal-img" id="modalImg"></div>
+    <div class="modal-info">
+      <p class="modal-category" id="modalCategory"></p>
+      <h2 id="modalName"></h2>
+      <p class="modal-price" id="modalPrice"></p>
+      <p class="modal-desc" id="modalDesc"></p>
+      <div class="size-picker">
+        <p>SIZE</p>
+        <div class="sizes" id="modalSizes"></div>
+      </div>
+      <button class="btn-primary full-width" id="modalAddCart">Add to Cart</button>
+    </div>
+  </div>
+</div>
+<div id="modalOverlay"></div>
+
+<!-- TOAST -->
+<div id="toast"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="C:\~KABIR\GIT DEMO\Zuman\app.js"></script>
+</body>
+</html>
